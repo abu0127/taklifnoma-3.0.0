@@ -28,8 +28,11 @@ body {
 .container {
     max-width: 500px;
     margin: 0 auto;
-    height: auto;
     overflow: hidden;
+}
+.section {
+    height: 100vh;
+
 }
 
 h1 {
@@ -125,11 +128,7 @@ h1 {
     font-size: 40px;
 }
 
-.section {
-    height: 100vh;
-    margin-top: 10px;
 
-}
 
 /* animations
  */
