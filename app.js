@@ -30,7 +30,7 @@ function main() {
         let scrollpos = window.scrollY;
 
         sections.forEach((section, index) => {
-            let sectionTop = section.offsetTop - 400;
+            let sectionTop = section.offsetTop - 200;
             let sectionHeight = section.offsetHeight;
 
             if (scrollpos >= sectionTop && scrollpos < sectionTop + sectionHeight) {
